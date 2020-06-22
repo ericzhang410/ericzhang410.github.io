@@ -1,0 +1,111 @@
+#pagename {/*  gives the title and name a box and a color of blue  */
+    background-color: #5C5C8A;
+    color:white;
+    font-size: 30px;
+    padding:10px;
+}
+
+body {/*  gives the body; white background, font-color black, font helvetica, and 20px size as well as center  */
+	background-color: white;
+	color: black;
+    font-family:Helvetica;
+    font-size:20px;
+    text-align:center;  
+}
+
+.list {/*   gives all lists with the class list a box */
+    border: 2px solid black;
+    margin: 10px;
+    padding: 50px;
+    text-align:left;
+}
+
+#contents {/*   gives the table of contents a box */
+    font-size: 20px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#punch {/*   gives the  Punch Card a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#drum {/*   gives the magnetic drum a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#tube {/*   gives the Selectron tube a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#tape {/*   gives the  magnetic tape a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#hard {/*   gives the hard disk drive a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#disc {/*   gives the Laserdisc a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#disk {/*   gives the floppy disk a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#optical {/*   gives the optical disk a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#mhdd {/*   gives the modern hard disk drive a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#flash {/*   gives the flash memory a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#ssdbox {/*   gives the solid state drive a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#cloud {/*   gives the cloud storage services a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#future {/*   gives the future storage a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#holograph {/*   gives the holographic storage a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+#dnastorage {/*   gives the dna storage a box */
+    border:3px solid black;
+    padding:15px;
+}
+#heliumdrive {/*   gives the helium disk drive a box */
+    border:3px solid black;
+    padding:15px;
+}
+
+img {/*   gives all images a width of 400px so they can be uniform */
+    width: 400px;
+}

@@ -1,0 +1,23 @@
+#pagename { /*gives the title a box and a blue color*/
+    background-color: #5C5C8A;
+    color:white;
+    font-size: 30px;
+    padding:10px;
+}
+
+h1 {/*  gives all h1 tags a blue color  */
+    color:#5C5C8A;
+}
+
+
+#bigpagename {/*   gives the main title white */
+    color:white;
+}
+
+body {/*  gives the body; white background, font-color black, font helvetica, and 20px size as well as center  */
+	background-color: white;
+	color: black;
+    font-family:Helvetica;
+    font-size:20px;
+    text-align:center;  
+}

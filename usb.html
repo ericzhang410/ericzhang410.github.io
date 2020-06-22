@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html><!--The Beginning of my document-->
+	<head><!--the beginning of the head-->
+	    
+		<meta charset="UTF-8"><!--identifying the character set-->
+		<title>Storage Devices: USB Flash Drives</title><!--title of the page-->
+		<link rel="stylesheet" type="text/css" href="hddstyle.css"><!--linking to the CSS file -->
+	</head>
+	
+	<body>
+		<div id="pagename"><!--first div is of the title of name-->
+		    <h1 id="bigpagename">What is a USB Flash Drive</h1>
+		    <h2>By Adrian Zhang</h2>
+		</div>
+		
+		<h2>Brief Description</h2>
+		<div id="brief"><!--Second div is of the description-->
+    		<p> USB Flash Drives or USB Sticks store non-volatile information on a Flash Drive. They connect to a computer via the USB connector and are primarily used to quickly transfer large amounts of data from one electronic device to another. As long as there is a need to move data around, USB Flash Drives will always be the most reliable and efficient. USB Flash Drives are cheap, small, and can store an extremely large amount of data depending on the model. Special USBs can even transfer data between two completely different electronic devices!
+    		</p>
+		</div>
+		
+        <div id="contents"><!--div of the contents-->
+	        <h1>Table of Contents</h1><!--I use the a tag to link to different parts of the page for easy user access-->
+    	    <h2><a href="#functions">Functionalities of USB Flash Drives</a></h2>
+    	    <h2><a href="#components">Components of HDD</a></h2>
+    	    <h2><a href="#works">How HDD works</a></h2>
+	        <h2><a href="timeline.html">Master Timeline of all Storage Devices</a></h2>
+	        <h2><a href="#compare">Comparing old technology to new</a></h2>
+            <h2><a href="#others">How HDD compares to other storage devices</a></h2>
+	        <h2><a href="#look">What to look for in an HDD</a></h2>
+	        <h2><a href="#future">HDD's future</a></h2>
+	    </div>
+	  
+	    
+	    <h1><a name="functions">Functionalities of USB Flash Drives</a></h1><!--This div is of the functions-->
+	    <p>The function of a USB Flash Drive is very simple, to transfer data from one electronic device to another. They can be used to store files, photos, videos, presentations, and spreadsheets. USBs also excel at transferring data from one place to another. Email may be used, but USBs are simply more private and secure, while also having the ability to transfer large files or multiple large files. The last major function USBs serve is to backup your computer. When you buy a new computer to replace your old one, USBs can be used to move all your data. When you're afraid your computer might crash and delete all your files, backups help by adding that extra layer of security. You can quickly download a file from your computer, and plug it in a different PC to get the same data USB. 
+	    </p>
+	    
+	    <div id="usbdiagram">
+	        <a href="https://www.electroschematics.com/usb-how-things-work/"><img src="https://www.electroschematics.com/wp-content/uploads/2010/01/INSIDE-USB.png?resize=400%2C400" alt="A USB flash drive opened up to reveal all the hardware"></a><!--This is the firt img tag. if you click it, it will take you to the original website. There is also an alt. All img tags on this page will also have these features -->
+	    </div>
+	    
+	    <div class="list"><!--A div for the class of lists. Most lists in this document have this class-->
+	        <h1><a name="components">Components of a USB Flash Drive</a></h1>
+	        <p>Below, there is a list of parts that most USB Flash Drives have. Please note that items with 
+	        an asterick indicates that this part is not neccesary and doesn't occur on all USB Flash Drives
+	        </p>
+	    
+    	    <ul>
+    	        <li>A USB connector (to connect the flash drive to the device)</li>
+    	        <li>A USB mass storage controller (a microcontroller to regulate what data goes in or out)</li>
+                <li>An NAND Flash memory chip (this is where all the data will actually be stored)</li>
+                <li>A crystal oscillator (provides the basic timing for the mass storage controller)</li>
+                <li>A case (the plastic box surrounding all the hardware)</li>
+                <li>A circuit board (like the motherboard of the computer, this is where all the hardware will be put)</li>
+                <li>A floating gate mosfet (devices in the NAND Flash memeory chip that controls the 1s and 0s)</li>
+                <li>*An LED (To show that the USB is working and inputting/outputting data)</li>
+    	    </ul>
+	    </div>
+	    
+	    <h1><a name="works">How a USB Flash Drive works</a></h1><!--Nested List-->
+	    <p>USB Flash Drives start when you plug in the USB connector into the port of an electronic device like a computer. If receiving information from the computer, the computer will emit either a low voltage current or a high voltage current into the NAND Flash Memory Chip. To determine whether the computer is sending a 1 or a 0, the electric current will pass through a floating gate Mosfet which uses a system of positively and negatively charged metal oxides. If an electron passes through the floating gates and metal oxides, a low voltage charge is required. This represents a 0. If the electrons build resistance at the floating gate, a high voltage charge is needed. This represents a 1. When transferring data from the USB Flash Drive into the computer, the NAND Flash Memory Chip will emit the charges. 
+	    </p>
+	    
+	    <div class="list">
+	        <h1><a name="compare">Comparing old technology to new</a></h1>
+    	    <ol>
+    	        <li>Capacity of USB Flash Drives increased</li> 
+        	        <ul>
+        	            <li>8 megabytes to 2 terabytes</li>
+    	            </ul>
+                <li>Weight of USB Flash Drives stays the same</li> 
+    	            <ul>
+    	                <li>30g to 40g</li>
+                    </ul>
+    	        <li>Physical volume of USB Flash Drives remains</li> 
+        	        <ul>
+        	            <li>6cm3 to 8cm3</li>
+    	            </ul>
+    	        <li>Data Transfer Speed increased</li> 
+        	        <ul>
+        	            <li>12.5Mbit/s to 10GB/s</li>
+    	            </ul>
+    	        <li>Price per gigabyte decreased</li> 
+        	        <ul>
+        	            <li>$8.48/MB to $0.009995/GB</li>
+    	            </ul>
+    	    </ol>
+	    </div>
+	    <div id="comparebox"><!--This div is for the table, which includes all pertinent tags-->
+    	    <h1><a name="others">How USB Flash Drives compare to other storage devices</a></h1>
+    	    <table>
+    	        <thead>
+        	        <tr>
+        	            <th>Type</th>
+        	            <th>Capacity</th>
+        	            <th>Access Speed</th>
+        	            <th>Noise</th>
+        	            <th>Power</th>
+        	            <th>Portability</th>
+        	            <th>Price</th>
+        	        </tr>
+    	        </thead>
+    	        <tbody>
+    	            <tr>
+        	            <td>USB Flash Drives</td>
+        	            <td>128 GB</td>
+        	            <td>104MB/s</td>
+        	            <td id="winner">None</td>
+        	            <td id="winner">2.5 watts</td>
+        	            <td id="winner">High</td>
+        	            <td>$0.2/GB</td>
+        	        </tr>
+        	        <tr>
+        	            <td>HDD</td>
+        	            <td id="winner">4.1 TB</td>
+        	            <td>120MB/s</td>
+        	            <td>Low</td>
+        	            <td>7 watts</td>
+        	            <td>Low</td>
+        	            <td id="winner">$0.03/GB</td>
+        	        </tr>
+        	        <tr>
+        	            <td>SSD</td>
+        	            <td>2.5 TB</td>
+        	            <td id="winner">385MB/s</td>
+        	            <td id="winner">None</td>
+        	            <td>3 watts</td>
+        	            <td>Low</td>
+        	            <td>$0.2/GB</td>
+        	        </tr>
+        	        <tr>
+        	            <td>CD (8x)</td>
+        	            <td>700 MB</td>
+        	            <td>6MB/s</td>
+        	            <td>Low</td>
+        	            <td>22.5 watts</td>
+        	            <td>Medium</td>
+        	            <td>$17.48/GB</td>
+        	        </tr>
+        	        <tr>
+        	            <td>DVD (8x)</td>
+        	            <td>4.7 GB</td>
+        	            <td>10.82MB/s</td>
+        	            <td>Low</td>
+        	            <td>7 watts</td>
+        	            <td>Medium</td>
+        	            <td>0.3/GB</td>
+        	        </tr>
+        	       
+        	   </tbody>
+    	    </table>
+	    </div>
+	    
+	    <div class="list"><!--Another nested list-->
+    	    <h1><a name="look">What to look for in a USB Flash Drive</a></h1>
+    	    <p>One of the problems with being the most revolutionary storage devices in the last decade is that there are a lot of options to choose from. Below, I have made three categories that may apply to the USB Flash Drive you are looking for. In each category, there is a checklist of things you may want. This will ensure you the perfect USB of your choice. </p>
+    	    <ol>
+    	        <div id="student">
+        	        <li>Student Use</li>
+            	        <ul>
+            	            <li>Capacity: 16GB - 64GB </li>
+            	            <li>Data Transfer Rate: 5GB/s</li>
+            	            <li>Connector Type: USB 3.0</li>
+            	        </ul>
+        	    </div>
+        	    <br>
+        	    <div id="programmer">
+                    <li>Programmer Use</li>
+                        <ul>
+                            <li>Capacity: 512GB - 1TB</li>
+                            <li>Speed: 10GB/s</li>
+                            <li>Connector Type: USB 3.0 or USB 3.2</li>
+                        </ul>
+                </div>
+                <br>
+                <div id="home">
+                <li>General Home Use</li>
+                    <ul>
+                        <li>Capacity: 16GB - 32GB</li>
+                        <li>Speed: 3GB/s</li>
+                        <li>Conector Type: USB 3.0</li>
+                    </ul>
+                </div>
+    	    </ol>
+	    </div>
+	    
+	    <a href="https://www.pinterest.ca/pin/432556739182627829/"><img id="futureusb" src="https://i.pinimg.com/originals/0f/ae/e8/0faee8060a6f2d4d9a3aec8667ea2234.jpg" alt="A USB flash drive with a screen on it. "></a>
+	    <h1><a name="future">The future of USB Flash Drives</a></h1><!--Last div is for the future of usbs-->
+	    <p>USB 4/USBC is the USB model on most modern androids and laptops. With a data transfer speed of 40 GB/s, this seems to be the future connector type for USB flash drives. However, it will take at least 2 years for USB 4 to get implemented on all forms of computers and laptops.
+Capacity will also increase, as most USB Flash Drives will begin measuring capacity in the terabytes. Unlike connector types, capacity will only increase with new technologies, until USB flash drives in the terabytes will be affordable for the average consumer. Future trends seem to point to size remaining roughly the same, however, there will always be outliers.</p>
+	</body>
+</html><!--end of doc-->

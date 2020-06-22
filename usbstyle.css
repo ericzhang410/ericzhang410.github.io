@@ -1,0 +1,60 @@
+#pagename {/*  gives the title and name a box and a color of blue  */
+    background-color: #5C5C8A;
+    color:white;
+    font-size: 30px;
+    padding:10px;
+}
+
+#bigpagename {/*makes the main title white*/
+    color:white;
+}
+
+body {/*  gives the body; white background, font-color black, font helvetica, and 20px size as well as center  */
+	background-color: white;
+	color: black;
+    font-family:Helvetica;
+    font-size:20px;
+    text-align:center;  
+}
+
+h1 {/*   makes all h1 tags blue */
+    color:#5C5C8A;
+}
+
+
+#comparebox {/*  gives the table a box and aligns text to center */
+    border:3px solid black;
+    margin:10px;
+    padding:10px;
+	text-align:center;
+    
+
+}
+
+.list {/*   gives all lists with the class list a box */
+    border: 2px solid black;
+    margin: 10px;
+    padding: 50px;
+    text-align:left;
+}
+
+#usbdiagram {/*   floats the usb diagram right */
+    float:right;
+    height:300px;
+}
+
+
+#contents {/* gives a box to the table of contents   */
+    border: 5px solid black;
+    padding: 30px;
+    margin: 10px;
+}
+
+#futureusb {/*  floats the pic of the future usb left  */
+    float:left;
+}
+
+
+#winner {/* gives the winner of a category in the table a light-green    */
+    background-color:lightgreen;
+}
